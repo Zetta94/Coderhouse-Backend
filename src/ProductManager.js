@@ -2,7 +2,7 @@ const fs = require('fs').promises
 
 class ProductManager {
     constructor(){
-        this.path = 'ProductManager/products.js'
+        this.path = 'src/products.js'
     }
 
     async addProduct(title, description, price, thumbnail, code, stock){
