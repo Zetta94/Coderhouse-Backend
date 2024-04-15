@@ -1,0 +1,19 @@
+{
+  "name": "desafios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node --watch src/app.js",
+    "start1" :"node Contador/contador.js",
+    "start2" :"node Desafio1/desafio1.js",
+    "start3" :"node ProductManager/ProductManager.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
